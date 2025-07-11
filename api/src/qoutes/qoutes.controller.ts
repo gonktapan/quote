@@ -1,6 +1,6 @@
 import { Controller } from '@nestjs/common';
 import { Get, Post, Put, Delete, UseGuards, Request } from '@nestjs/common';
-import { AuthGuard } from 'src/auth/auth.guard';
+import { AuthGuard } from '../auth/auth.guard';
 import { QoutesService } from './qoutes.service';
 
 @Controller('quotes')
